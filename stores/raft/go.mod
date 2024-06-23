@@ -3,9 +3,9 @@ module github.com/micro-onos-revamped/atomix/stores/raft
 go 1.19
 
 require (
-	github.com/micro-onos-revamped/atomix/api v1.1.6
+	github.com/micro-onos-revamped/atomix/api v1.1.7
 	github.com/micro-onos-revamped/atomix/controller v1.0.1-0.20230301233247-275080a3c6af
-	github.com/micro-onos-revamped/atomix/protocols/rsm v1.1.6
+	github.com/micro-onos-revamped/atomix/protocols/rsm v1.1.7
 	github.com/micro-onos-revamped/atomix/runtime v1.1.2-0.20230331005836-16ae30b766af
 	github.com/cenkalti/backoff v2.2.1+incompatible
 	github.com/go-logr/logr v1.2.0

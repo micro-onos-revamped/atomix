@@ -3,9 +3,9 @@ module github.com/micro-onos-revamped/atomix/drivers/shared-memory
 go 1.19
 
 require (
-	github.com/micro-onos-revamped/atomix/api v1.1.0
-	github.com/micro-onos-revamped/atomix/protocols/rsm v1.1.1
-	github.com/micro-onos-revamped/atomix/runtime v1.1.1
+	github.com/micro-onos-revamped/atomix/api v1.1.6
+	github.com/micro-onos-revamped/atomix/protocols/rsm v1.1.6
+	github.com/micro-onos-revamped/atomix/runtime v1.1.6
 )
 
 require (

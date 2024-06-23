@@ -3,9 +3,9 @@ module github.com/micro-onos-revamped/atomix/drivers/pod-memory
 go 1.19
 
 require (
-	github.com/micro-onos-revamped/atomix/api v1.1.6
-	github.com/micro-onos-revamped/atomix/protocols/rsm v1.1.6
-	github.com/micro-onos-revamped/atomix/runtime v1.1.6
+	github.com/micro-onos-revamped/atomix/api v1.1.7
+	github.com/micro-onos-revamped/atomix/protocols/rsm v1.1.7
+	github.com/micro-onos-revamped/atomix/runtime v1.1.7
 )
 
 require (

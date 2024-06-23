@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/dustinkirkland/golang-petname v0.0.0-20191129215211-8e5a1ed0cff0
-	github.com/micro-onos-revamped/atomix/api v1.1.6
+	github.com/micro-onos-revamped/atomix/api v1.1.7
 	github.com/onosproject/helmit v1.1.3
 	google.golang.org/grpc v1.49.0
 )

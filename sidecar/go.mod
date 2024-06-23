@@ -3,8 +3,8 @@ module github.com/micro-onos-revamped/atomix/sidecar
 go 1.19
 
 require (
-	github.com/micro-onos-revamped/atomix/api v1.1.6
-	github.com/micro-onos-revamped/atomix/runtime v1.1.6
+	github.com/micro-onos-revamped/atomix/api v1.1.7
+	github.com/micro-onos-revamped/atomix/runtime v1.1.7
 	github.com/spf13/cobra v1.4.0
 	google.golang.org/grpc v1.46.0
 )
