@@ -449,13 +449,13 @@ github.com/matttproud/golang_protobuf_extensions v1.0.4/go.mod h1:BSXmuO+STAnVfr
 github.com/micro-onos-revamped/atomix/api v1.0.0 h1:1rwCbT1lo6p8nZyO33pa9NmLS3m+X0k1yadaslOpKoE=
 github.com/micro-onos-revamped/atomix/api v1.0.0/go.mod h1:Fz8zXQH6n28U0NTu5xctKhkNrN5RsWgX56lrMhqXlPg=
 github.com/micro-onos-revamped/atomix/api v1.1.0/go.mod h1:Fz8zXQH6n28U0NTu5xctKhkNrN5RsWgX56lrMhqXlPg=
-github.com/micro-onos-revamped/atomix/api v1.1.5 h1:7nixp115PfUG5iO5AqtV8LDQDkEatBXDwCVXN0DNRIw=
-github.com/micro-onos-revamped/atomix/api v1.1.5/go.mod h1:nYzN1Z/2vmUuFyrEqEZ+gMMrdMVFNG2Mxfhbs4MJiYA=
+github.com/micro-onos-revamped/atomix/api v1.1.6 h1:7nixp115PfUG5iO5AqtV8LDQDkEatBXDwCVXN0DNRIw=
+github.com/micro-onos-revamped/atomix/api v1.1.6/go.mod h1:nYzN1Z/2vmUuFyrEqEZ+gMMrdMVFNG2Mxfhbs4MJiYA=
 github.com/micro-onos-revamped/atomix/runtime v1.0.0 h1:vgCTKUswadOZS3FebynQOi0g5DV5J5xsT1JXGlTyEBA=
 github.com/micro-onos-revamped/atomix/runtime v1.0.0/go.mod h1:9ttwgGESrcmJguQlw8oxQgLfx+KbyoULIhzYFdOpNDA=
 github.com/miekg/dns v1.0.14/go.mod h1:W1PPwlIAgtquWBMBEV9nkV9Cazfe8ScdGz/Lj7v3Nrg=
 github.com/mitchellh/cli v1.0.0/go.mod h1:hNIlj7HEI86fIcpObd7a0FcrxTWetlwJDGcceTlRvqc=
-github.com/mitchellh/cli v1.1.5/go.mod h1:v8+iFts2sPIKUV1ltktPXMCC8fumSKFItNcD2cLtRR4=
+github.com/mitchellh/cli v1.1.6/go.mod h1:v8+iFts2sPIKUV1ltktPXMCC8fumSKFItNcD2cLtRR4=
 github.com/mitchellh/copystructure v1.0.0/go.mod h1:SNtv71yrdKgLRyLFxmLdkAbkKEFWgYaq1OVrnRcwhnw=
 github.com/mitchellh/copystructure v1.2.0 h1:vpKXTN4ewci03Vljg/q9QvCGUDttBOGBIa15WveJJGw=
 github.com/mitchellh/copystructure v1.2.0/go.mod h1:qLl+cE2AmVv+CoeAwDPye/v+N2HKCj9FbZEVFJRxO9s=

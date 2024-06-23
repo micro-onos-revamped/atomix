@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ver=v1.1.5
+ver=v1.1.6
 
 git tag ${ver}
 git tag api/${ver}
