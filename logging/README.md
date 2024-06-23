@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 
 ## A facade for Go logging frameworks
 
-[![Build](https://img.shields.io/github/actions/workflow/status/atomix/atomix/logging-verify.yml)](https://github.com/atomix/atomix/actions/workflows/logging-verify.yml)
+[![Build](https://img.shields.io/github/actions/workflow/status/micro-onos-revamped/atomix/logging-verify.yml)](https://github.com/micro-onos-revamped/atomix/actions/workflows/logging-verify.yml)
 ![Go Version](https://img.shields.io/github/go-mod/go-version/atomix/atomix?label=go%20version&filename=logging%2Fgo.mod)
 
 flogr is a lightweight wrapper around [zap](https://github.com/uber-go/zap) loggers that adds a logger hierarchy
@@ -41,9 +41,9 @@ log.SetLevel(flogr.DebugLevel)
 ```
 
 If the level for a logger is not explicitly set, it will inherit its level from its nearest ancestor in
-the logger hierarchy. For example, setting the `github.com/atomix/atomix/runtime` logger to the `debug`
-level will change the loggers for `github.com/atomix/atomix/runtime/pkg`, `github.com/atomix/atomix/runtime/pkg/utils`,
-and all other packages underneath the `github.com/atomix/atomix/runtime` package to the `debug` level.
+the logger hierarchy. For example, setting the `github.com/micro-onos-revamped/atomix/runtime` logger to the `debug`
+level will change the loggers for `github.com/micro-onos-revamped/atomix/runtime/pkg`, `github.com/micro-onos-revamped/atomix/runtime/pkg/utils`,
+and all other packages underneath the `github.com/micro-onos-revamped/atomix/runtime` package to the `debug` level.
 
 ## Logging configuration
 
@@ -71,9 +71,9 @@ loggers:
         sink: file
   github.com/atomix/atomix:
     level: warn
-  github.com/atomix/atomix/runtime:
+  github.com/micro-onos-revamped/atomix/runtime:
     level: info
-  github.com/atomix/atomix/drivers:
+  github.com/micro-onos-revamped/atomix/drivers:
     level: debug
     output:
       jsonerr:

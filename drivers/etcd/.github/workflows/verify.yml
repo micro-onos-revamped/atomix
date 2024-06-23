@@ -24,7 +24,7 @@ jobs:
     uses: ./.github/workflows/test.yml
     with:
       component: drivers/etcd
-      package: github.com/atomix/atomix/drivers/etcd/v3/...
+      package: github.com/micro-onos-revamped/atomix/drivers/etcd/v3/...
 
   lint:
     uses: ./.github/workflows/lint.yml

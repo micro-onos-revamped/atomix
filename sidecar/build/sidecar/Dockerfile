@@ -25,37 +25,37 @@ RUN atomix build \
 FROM builder AS build-etcd-v3-driver
 RUN atomix build plugin \
     -o ./bin/driver.so \
-    github.com/atomix/atomix/drivers/etcd/v3@v0.6.1
+    github.com/micro-onos-revamped/atomix/drivers/etcd/v3@v0.6.1
 
 # Build the atomix.io/pod-memory@v1 storage driver
 FROM builder AS build-pod-memory-v1-driver
 RUN atomix build plugin \
     -o ./bin/driver.so \
-    github.com/atomix/atomix/drivers/pod-memory/v1@v0.6.1
+    github.com/micro-onos-revamped/atomix/drivers/pod-memory/v1@v0.6.1
 
 # Build the atomix.io/raft@v1 storage driver
 FROM builder AS build-raft-v1-driver
 RUN atomix build plugin \
     -o ./bin/driver.so \
-    github.com/atomix/atomix/drivers/raft/v1@v0.6.1
+    github.com/micro-onos-revamped/atomix/drivers/raft/v1@v0.6.1
 
 # Build the atomix.io/redis@v8 storage driver
 FROM builder AS build-redis-v8-driver
 RUN atomix build plugin \
     -o ./bin/driver.so \
-    github.com/atomix/atomix/drivers/redis/v8@v0.6.1
+    github.com/micro-onos-revamped/atomix/drivers/redis/v8@v0.6.1
 
 # Build the atomix.io/redis@v9 storage driver
 FROM builder AS build-redis-v9-driver
 RUN atomix build plugin \
     -o ./bin/driver.so \
-    github.com/atomix/atomix/drivers/redis/v9@v0.6.1
+    github.com/micro-onos-revamped/atomix/drivers/redis/v9@v0.6.1
 
 # Build the atomix.io/shared-memory@v1 storage driver
 FROM builder AS build-shared-memory-v1-driver
 RUN atomix build plugin \
     -o ./bin/driver.so \
-    github.com/atomix/atomix/drivers/shared-memory/v1@v0.6.1
+    github.com/micro-onos-revamped/atomix/drivers/shared-memory/v1@v0.6.1
 
 # Pull binaries and plugins into the Alpine image
 FROM alpine:3.15

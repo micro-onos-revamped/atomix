@@ -23,7 +23,7 @@ node-kind: node
 
 .PHONY: test
 test:
-	go test github.com/atomix/atomix/stores/raft/pkg/...
+	go test github.com/micro-onos-revamped/atomix/stores/raft/pkg/...
 
 .PHONY: api
 api:
@@ -31,4 +31,4 @@ api:
 	docker run -i \
 		-v `pwd`:/build \
 		atomix/codegen:go-latest \
-		--proto-path ./api --go-path ./api --import-path github.com/atomix/atomix/stores/raft/api
+		--proto-path ./api --go-path ./api --import-path github.com/micro-onos-revamped/atomix/stores/raft/api

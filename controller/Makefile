@@ -23,4 +23,4 @@ controller-init-kind: controller-init
 
 .PHONY: test
 test:
-	go test github.com/atomix/atomix/controller/pkg/... -p 1
+	go test github.com/micro-onos-revamped/atomix/controller/pkg/... -p 1

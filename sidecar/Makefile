@@ -23,5 +23,5 @@ controller-kind: controller
 
 .PHONY: test
 test:
-	go test github.com/atomix/atomix/sidecar/pkg/...
+	go test github.com/micro-onos-revamped/atomix/sidecar/pkg/...
 	ct install --namespace kube-system --charts ./chart --helm-extra-set-args '--set image.pullPolicy=Never --set init.image.pullPolicy=Never --set test.image.pullPolicy=Never --set test.enabled=true'

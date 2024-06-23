@@ -1,4 +1,4 @@
-module github.com/atomix/atomix/api
+module github.com/micro-onos-revamped/atomix/api
 
 go 1.19
 

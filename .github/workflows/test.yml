@@ -27,5 +27,5 @@ jobs:
         uses: ./.github/actions/setup-go
 
       - name: Run tests
-        run: go test ${{ inputs.package || format('github.com/atomix/atomix/{0}/...', inputs.component) }}
+        run: go test ${{ inputs.package || format('github.com/micro-onos-revamped/atomix/{0}/...', inputs.component) }}
         working-directory: ${{ inputs.component }}

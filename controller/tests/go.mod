@@ -1,4 +1,4 @@
-module github.com/atomix/atomix/controller/tests
+module github.com/micro-onos-revamped/atomix/controller/tests
 
 go 1.19
 
@@ -125,7 +125,7 @@ require (
 )
 
 require (
-	github.com/atomix/atomix/controller v1.0.1-0.20230301233247-275080a3c6af
+	github.com/micro-onos-revamped/atomix/controller v1.0.1-0.20230301233247-275080a3c6af
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect

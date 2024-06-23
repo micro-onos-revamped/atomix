@@ -24,7 +24,7 @@ jobs:
     uses: ./.github/workflows/test.yml
     with:
       component: drivers/redis
-      package: github.com/atomix/atomix/drivers/redis/v8/...
+      package: github.com/micro-onos-revamped/atomix/drivers/redis/v8/...
 
   lint-v8:
     uses: ./.github/workflows/lint.yml
@@ -35,7 +35,7 @@ jobs:
     uses: ./.github/workflows/test.yml
     with:
       component: drivers/redis
-      package: github.com/atomix/atomix/drivers/redis/v9/...
+      package: github.com/micro-onos-revamped/atomix/drivers/redis/v9/...
 
   lint-v9:
     uses: ./.github/workflows/lint.yml

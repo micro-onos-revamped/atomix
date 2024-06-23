@@ -1,10 +1,10 @@
-module github.com/atomix/atomix/drivers/raft/tests
+module github.com/micro-onos-revamped/atomix/drivers/raft/tests
 
 go 1.19
 
 require (
-	github.com/atomix/atomix/stores/raft v0.7.1-0.20230314010507-dd4da27ce84f
-	github.com/atomix/atomix/testing v0.0.0-20230407121717-bc3b3fa5f9ed
+	github.com/micro-onos-revamped/atomix/stores/raft v0.7.1-0.20230314010507-dd4da27ce84f
+	github.com/micro-onos-revamped/atomix/testing v0.0.0-20230407121717-bc3b3fa5f9ed
 	k8s.io/api v0.26.0
 	k8s.io/apimachinery v0.26.0
 )
@@ -18,8 +18,8 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.3 // indirect
 	github.com/Masterminds/squirrel v1.5.3 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20200428143746-21a406dcc535 // indirect
-	github.com/atomix/atomix/api v1.1.0 // indirect
-	github.com/atomix/atomix/runtime v1.1.0 // indirect
+	github.com/micro-onos-revamped/atomix/api v1.1.0 // indirect
+	github.com/micro-onos-revamped/atomix/runtime v1.1.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
@@ -135,7 +135,7 @@ require (
 )
 
 require (
-	github.com/atomix/atomix/controller v1.0.1-0.20230301233247-275080a3c6af
+	github.com/micro-onos-revamped/atomix/controller v1.0.1-0.20230301233247-275080a3c6af
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect

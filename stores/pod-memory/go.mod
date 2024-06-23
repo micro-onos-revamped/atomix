@@ -1,10 +1,10 @@
-module github.com/atomix/atomix/stores/pod-memory
+module github.com/micro-onos-revamped/atomix/stores/pod-memory
 
 go 1.19
 
 require (
-	github.com/atomix/atomix/controller v1.0.1-0.20230301233247-275080a3c6af
-	github.com/atomix/atomix/runtime v1.0.0
+	github.com/micro-onos-revamped/atomix/controller v1.0.1-0.20230301233247-275080a3c6af
+	github.com/micro-onos-revamped/atomix/runtime v1.0.0
 	github.com/go-logr/logr v1.2.0
 	github.com/spf13/cobra v1.4.0
 	github.com/stretchr/testify v1.8.0

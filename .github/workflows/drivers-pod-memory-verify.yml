@@ -27,7 +27,7 @@ jobs:
     uses: ./.github/workflows/test.yml
     with:
       component: drivers/pod-memory
-      package: github.com/atomix/atomix/drivers/pod-memory/v1/...
+      package: github.com/micro-onos-revamped/atomix/drivers/pod-memory/v1/...
 
   lint:
     uses: ./.github/workflows/lint.yml
