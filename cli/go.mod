@@ -3,7 +3,7 @@ module github.com/micro-onos-revamped/atomix/cli
 go 1.19
 
 require (
-	github.com/micro-onos-revamped/atomix/runtime v1.1.0
+	github.com/micro-onos-revamped/atomix/runtime v1.1.5
 	github.com/rogpeppe/go-internal v1.8.1
 	github.com/spf13/cobra v1.4.0
 	github.com/stretchr/testify v1.8.0

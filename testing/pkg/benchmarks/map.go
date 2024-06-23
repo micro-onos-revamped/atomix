@@ -7,10 +7,11 @@ package benchmarks
 import (
 	"bytes"
 	"context"
+	"math/rand"
+
 	petname "github.com/dustinkirkland/golang-petname"
 	mapv1 "github.com/micro-onos-revamped/atomix/api/runtime/map/v1"
 	"github.com/onosproject/helmit/pkg/benchmark"
-	"math/rand"
 )
 
 const (

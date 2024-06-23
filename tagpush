@@ -12,6 +12,7 @@ git tag runtime/${ver}
 git tag sidecar/${ver}
 git tag stores/raft/${ver}
 git tag stores/pod-memory/${ver}
+git tag stores/protocols/rsm/${ver}
 git tag stores/shared-memory/${ver}
 git tag testing/${ver}
 
