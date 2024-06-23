@@ -1,0 +1,18 @@
+#!/bin/bash
+
+ver=v1.1.5
+
+git tag ${ver}
+git tag api/${ver}
+git tag cli/${ver}
+git tag controller/${ver}
+git tag drivers/${ver}
+git tag proxy/${ver}
+git tag runtime/${ver}
+git tag sidecar/${ver}
+git tag stores/raft/${ver}
+git tag stores/pod-memory/${ver}
+git tag stores/shared-memory/${ver}
+git tag testing/${ver}
+
+git push origin --tags
