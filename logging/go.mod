@@ -1,4 +1,4 @@
-module github.com/atomix/atomix/logging
+module github.com/micro-onos-revamped/atomix/logging
 
 go 1.19
 

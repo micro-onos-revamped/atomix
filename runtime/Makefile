@@ -7,4 +7,4 @@ build: test
 
 .PHONY: test
 test:
-	go test github.com/atomix/atomix/runtime/pkg/... -p 1
+	go test github.com/micro-onos-revamped/atomix/runtime/pkg/... -p 1

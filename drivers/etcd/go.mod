@@ -1,10 +1,10 @@
-module github.com/atomix/atomix/drivers/etcd
+module github.com/micro-onos-revamped/atomix/drivers/etcd
 
 go 1.19
 
 require (
-	github.com/atomix/atomix/api v1.1.0
-	github.com/atomix/atomix/runtime v1.1.1
+	github.com/micro-onos-revamped/atomix/api v1.1.0
+	github.com/micro-onos-revamped/atomix/runtime v1.1.1
 	go.etcd.io/etcd/api/v3 v3.5.6
 	go.etcd.io/etcd/client/v3 v3.5.6
 )

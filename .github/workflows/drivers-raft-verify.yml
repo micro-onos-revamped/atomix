@@ -27,7 +27,7 @@ jobs:
     uses: ./.github/workflows/test.yml
     with:
       component: drivers/raft
-      package: github.com/atomix/atomix/drivers/raft/v1/...
+      package: github.com/micro-onos-revamped/atomix/drivers/raft/v1/...
 
   lint:
     uses: ./.github/workflows/lint.yml

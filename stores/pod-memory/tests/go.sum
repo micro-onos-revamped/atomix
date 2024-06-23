@@ -75,10 +75,10 @@ github.com/armon/go-radix v1.0.0/go.mod h1:ufUuZ+zHj4x4TnLV4JWEpy2hxWSpsRywHrMgI
 github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5 h1:0CwZNZbxp69SHPdPJAN/hZIm0C4OItdklCFmMRWYpio=
 github.com/asaskevich/govalidator v0.0.0-20200428143746-21a406dcc535 h1:4daAzAu0S6Vi7/lbWECcX0j45yZReDZ56BQsrVBOEEY=
 github.com/asaskevich/govalidator v0.0.0-20200428143746-21a406dcc535/go.mod h1:oGkLhpf+kjZl6xBf758TQhh5XrAeiJv/7FRz/2spLIg=
-github.com/atomix/atomix/controller v1.0.1-0.20230301233247-275080a3c6af h1:bjpnMlUeG17jW+t1+z6U+JaXdNGUMaCPJguQEKAAsP4=
-github.com/atomix/atomix/controller v1.0.1-0.20230301233247-275080a3c6af/go.mod h1:y2eGC8VoqCZw7wB8MgSO4LZxrK9rWLvBLH2S9uuX8/I=
-github.com/atomix/atomix/stores/pod-memory v0.4.3-0.20230314010507-dd4da27ce84f h1:Qlppw8Svo9B8LVJYthANwN3pNmoLqOgRPQtuIU7+tC4=
-github.com/atomix/atomix/stores/pod-memory v0.4.3-0.20230314010507-dd4da27ce84f/go.mod h1:uARiGBlAePd/L4s/17oB8FCaR1v2j+eQhypCG4ZD/CM=
+github.com/micro-onos-revamped/atomix/controller v1.0.1-0.20230301233247-275080a3c6af h1:bjpnMlUeG17jW+t1+z6U+JaXdNGUMaCPJguQEKAAsP4=
+github.com/micro-onos-revamped/atomix/controller v1.0.1-0.20230301233247-275080a3c6af/go.mod h1:y2eGC8VoqCZw7wB8MgSO4LZxrK9rWLvBLH2S9uuX8/I=
+github.com/micro-onos-revamped/atomix/stores/pod-memory v0.4.3-0.20230314010507-dd4da27ce84f h1:Qlppw8Svo9B8LVJYthANwN3pNmoLqOgRPQtuIU7+tC4=
+github.com/micro-onos-revamped/atomix/stores/pod-memory v0.4.3-0.20230314010507-dd4da27ce84f/go.mod h1:uARiGBlAePd/L4s/17oB8FCaR1v2j+eQhypCG4ZD/CM=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/beorn7/perks v1.0.0/go.mod h1:KWe93zE9D1o94FZ5RNwFwVgaQK1VOXiVxmqh+CedLV8=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=

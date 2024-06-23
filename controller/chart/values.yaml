@@ -21,5 +21,5 @@ logging:
   rootLevel: info
   encoding: console
   loggers:
-    github.com/atomix/atomix/runtime/pkg/utils/grpc/interceptors:
+    github.com/micro-onos-revamped/atomix/runtime/pkg/utils/grpc/interceptors:
       level: error

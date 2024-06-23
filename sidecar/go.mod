@@ -1,10 +1,10 @@
-module github.com/atomix/atomix/sidecar
+module github.com/micro-onos-revamped/atomix/sidecar
 
 go 1.19
 
 require (
-	github.com/atomix/atomix/api v1.1.0
-	github.com/atomix/atomix/runtime v1.1.1
+	github.com/micro-onos-revamped/atomix/api v1.1.0
+	github.com/micro-onos-revamped/atomix/runtime v1.1.1
 	github.com/spf13/cobra v1.4.0
 	google.golang.org/grpc v1.46.0
 )
@@ -28,7 +28,7 @@ require (
 )
 
 require (
-	github.com/atomix/atomix/controller v1.0.1-0.20230301233247-275080a3c6af
+	github.com/micro-onos-revamped/atomix/controller v1.0.1-0.20230301233247-275080a3c6af
 	github.com/go-logr/logr v1.2.0
 	github.com/stretchr/testify v1.8.0
 	k8s.io/api v0.24.0

@@ -1,9 +1,9 @@
-module github.com/atomix/atomix/drivers/redis/tests
+module github.com/micro-onos-revamped/atomix/drivers/redis/tests
 
 go 1.19
 
 require (
-	github.com/atomix/atomix/tests v0.0.0-20230328084812-1418737db134
+	github.com/micro-onos-revamped/atomix/tests v0.0.0-20230328084812-1418737db134
 	k8s.io/api v0.26.0
 	k8s.io/apimachinery v0.26.0
 )
@@ -17,7 +17,7 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.3 // indirect
 	github.com/Masterminds/squirrel v1.5.3 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20200428143746-21a406dcc535 // indirect
-	github.com/atomix/atomix/api v1.0.0 // indirect
+	github.com/micro-onos-revamped/atomix/api v1.0.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/chai2010/gettext-go v1.0.2 // indirect
@@ -128,7 +128,7 @@ require (
 )
 
 require (
-	github.com/atomix/atomix/controller v1.0.1-0.20230301233247-275080a3c6af
+	github.com/micro-onos-revamped/atomix/controller v1.0.1-0.20230301233247-275080a3c6af
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect

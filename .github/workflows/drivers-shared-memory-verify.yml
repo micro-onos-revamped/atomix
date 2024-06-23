@@ -27,7 +27,7 @@ jobs:
     uses: ./.github/workflows/test.yml
     with:
       component: drivers/shared-memory
-      package: github.com/atomix/atomix/drivers/shared-memory/v1/...
+      package: github.com/micro-onos-revamped/atomix/drivers/shared-memory/v1/...
 
   lint:
     uses: ./.github/workflows/lint.yml

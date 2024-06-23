@@ -8,14 +8,14 @@ build: go docs
 
 .PHONY: test
 test:
-	go test github.com/atomix/atomix/api/...
+	go test github.com/micro-onos-revamped/atomix/api/...
 
 go:
 	@find ./runtime -name '*.pb.go' -delete
 	docker run -i \
 		-v `pwd`:/build \
 		atomix/codegen:go-latest \
-		--proto-path . --go-path . --import-path github.com/atomix/atomix/api
+		--proto-path . --go-path . --import-path github.com/micro-onos-revamped/atomix/api
 
 docs:
 	@find ./runtime -name '*.md' -delete

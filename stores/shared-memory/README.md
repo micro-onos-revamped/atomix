@@ -5,8 +5,8 @@ SPDX-License-Identifier: Apache-2.0
 
 # Shared Memory Store
 
-[![Build](https://img.shields.io/github/actions/workflow/status/atomix/atomix/stores-shared-memory-verify.yml)](https://github.com/atomix/atomix/actions/workflows/stores-shared-memory-verify.yml)
-[![Integration Tests](https://img.shields.io/github/actions/workflow/status/atomix/atomix/stores-shared-memory-test.yml?label=integration%20tests)](https://github.com/atomix/atomix/actions/workflows/stores-shared-memory-test.yml)
+[![Build](https://img.shields.io/github/actions/workflow/status/micro-onos-revamped/atomix/stores-shared-memory-verify.yml)](https://github.com/micro-onos-revamped/atomix/actions/workflows/stores-shared-memory-verify.yml)
+[![Integration Tests](https://img.shields.io/github/actions/workflow/status/micro-onos-revamped/atomix/stores-shared-memory-test.yml?label=integration%20tests)](https://github.com/micro-onos-revamped/atomix/actions/workflows/stores-shared-memory-test.yml)
 [![Image](https://img.shields.io/docker/v/atomix/shared-memory-controller?label=release)](https://hub.docker.com/repository/docker/atomix/shared-memory-controller)
 
 This module provides the control plane and node image for shared memory storage.

@@ -7,9 +7,9 @@ package tests
 import (
 	"context"
 	"fmt"
-	atomixv3beta4 "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
-	"github.com/atomix/atomix/stores/raft/pkg/apis/raft/v1beta3"
-	raftv1beta3 "github.com/atomix/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta3"
+	atomixv3beta4 "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
+	"github.com/micro-onos-revamped/atomix/stores/raft/pkg/apis/raft/v1beta3"
+	raftv1beta3 "github.com/micro-onos-revamped/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta3"
 	"github.com/onosproject/helmit/pkg/test"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
