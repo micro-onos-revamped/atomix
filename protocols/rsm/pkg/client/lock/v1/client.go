@@ -6,13 +6,13 @@ package v1
 
 import (
 	"context"
-	lockv1 "github.com/atomix/atomix/api/runtime/lock/v1"
-	runtimev1 "github.com/atomix/atomix/api/runtime/v1"
-	lockprotocolv1 "github.com/atomix/atomix/protocols/rsm/api/lock/v1"
-	protocol "github.com/atomix/atomix/protocols/rsm/api/v1"
-	"github.com/atomix/atomix/protocols/rsm/pkg/client"
-	"github.com/atomix/atomix/runtime/pkg/logging"
-	runtimelockv1 "github.com/atomix/atomix/runtime/pkg/runtime/lock/v1"
+	lockv1 "github.com/micro-onos-revamped/atomix/api/runtime/lock/v1"
+	runtimev1 "github.com/micro-onos-revamped/atomix/api/runtime/v1"
+	lockprotocolv1 "github.com/micro-onos-revamped/atomix/protocols/rsm/api/lock/v1"
+	protocol "github.com/micro-onos-revamped/atomix/protocols/rsm/api/v1"
+	"github.com/micro-onos-revamped/atomix/protocols/rsm/pkg/client"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
+	runtimelockv1 "github.com/micro-onos-revamped/atomix/runtime/pkg/runtime/lock/v1"
 	"google.golang.org/grpc"
 )
 

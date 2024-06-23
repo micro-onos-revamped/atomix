@@ -9,8 +9,8 @@ import (
 	"context"
 	"time"
 
-	v3beta4 "github.com/atomix/atomix/controller/pkg/apis/atomix/v3beta4"
-	scheme "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/scheme"
+	v3beta4 "github.com/micro-onos-revamped/atomix/controller/pkg/apis/atomix/v3beta4"
+	scheme "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

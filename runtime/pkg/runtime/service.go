@@ -5,10 +5,10 @@
 package runtime
 
 import (
-	runtimeapiv1 "github.com/atomix/atomix/api/runtime/v1"
-	"github.com/atomix/atomix/runtime/pkg/network"
-	runtimev1 "github.com/atomix/atomix/runtime/pkg/runtime/v1"
-	"github.com/atomix/atomix/runtime/pkg/utils/grpc/interceptors"
+	runtimeapiv1 "github.com/micro-onos-revamped/atomix/api/runtime/v1"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/network"
+	runtimev1 "github.com/micro-onos-revamped/atomix/runtime/pkg/runtime/v1"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/utils/grpc/interceptors"
 	"google.golang.org/grpc"
 )
 

@@ -7,9 +7,9 @@ package tests
 import (
 	"context"
 	"encoding/json"
-	"github.com/atomix/atomix/controller/pkg/apis/atomix/v3beta4"
-	atomixv3beta4 "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
-	"github.com/atomix/atomix/tests/pkg/tests"
+	"github.com/micro-onos-revamped/atomix/controller/pkg/apis/atomix/v3beta4"
+	atomixv3beta4 "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
+	"github.com/micro-onos-revamped/atomix/tests/pkg/tests"
 	"github.com/onosproject/helmit/pkg/helm"
 	"github.com/onosproject/helmit/pkg/test"
 	clientv3 "go.etcd.io/etcd/client/v3"

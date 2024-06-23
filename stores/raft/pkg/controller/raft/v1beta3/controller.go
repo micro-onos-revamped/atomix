@@ -6,7 +6,7 @@ package v1beta3
 
 import (
 	"context"
-	"github.com/atomix/atomix/runtime/pkg/logging"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/manager"

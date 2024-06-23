@@ -5,10 +5,10 @@
 package tests
 
 import (
-	"github.com/atomix/atomix/api/errors"
-	runtimev1 "github.com/atomix/atomix/api/runtime/v1"
-	"github.com/atomix/atomix/runtime/pkg/utils/grpc/interceptors"
 	petname "github.com/dustinkirkland/golang-petname"
+	"github.com/micro-onos-revamped/atomix/api/errors"
+	runtimev1 "github.com/micro-onos-revamped/atomix/api/runtime/v1"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/utils/grpc/interceptors"
 	"github.com/onosproject/helmit/pkg/test"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

@@ -8,8 +8,8 @@ package v1beta3
 import (
 	"net/http"
 
-	v1beta3 "github.com/atomix/atomix/stores/raft/pkg/apis/raft/v1beta3"
-	"github.com/atomix/atomix/stores/raft/pkg/client/clientset/versioned/scheme"
+	v1beta3 "github.com/micro-onos-revamped/atomix/stores/raft/pkg/apis/raft/v1beta3"
+	"github.com/micro-onos-revamped/atomix/stores/raft/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

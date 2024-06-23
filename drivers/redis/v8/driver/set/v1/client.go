@@ -6,10 +6,10 @@ package v1
 
 import (
 	"context"
-	"github.com/atomix/atomix/api/errors"
-	setv1 "github.com/atomix/atomix/api/runtime/set/v1"
-	runtimesetv1 "github.com/atomix/atomix/runtime/pkg/runtime/set/v1"
 	"github.com/go-redis/redis/v8"
+	"github.com/micro-onos-revamped/atomix/api/errors"
+	setv1 "github.com/micro-onos-revamped/atomix/api/runtime/set/v1"
+	runtimesetv1 "github.com/micro-onos-revamped/atomix/runtime/pkg/runtime/set/v1"
 )
 
 func NewSet(client *redis.Client) runtimesetv1.SetProxy {

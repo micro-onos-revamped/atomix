@@ -6,7 +6,7 @@
 package fake
 
 import (
-	v1beta2 "github.com/atomix/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta2"
+	v1beta2 "github.com/micro-onos-revamped/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta2"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

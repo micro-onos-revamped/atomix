@@ -5,7 +5,7 @@
 package tests
 
 import (
-	mapv1 "github.com/atomix/atomix/api/runtime/map/v1"
+	mapv1 "github.com/micro-onos-revamped/atomix/api/runtime/map/v1"
 	"github.com/onosproject/helmit/pkg/test"
 )
 

@@ -5,11 +5,11 @@
 package tests
 
 import (
-	"github.com/atomix/atomix/controller/pkg/apis/atomix/v3beta4"
-	atomixv3beta4 "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
-	"github.com/atomix/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta2"
-	sharedmemoryv1beta2 "github.com/atomix/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta2"
-	"github.com/atomix/atomix/testing/pkg/tests"
+	"github.com/micro-onos-revamped/atomix/controller/pkg/apis/atomix/v3beta4"
+	atomixv3beta4 "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
+	"github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta2"
+	sharedmemoryv1beta2 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta2"
+	"github.com/micro-onos-revamped/atomix/testing/pkg/tests"
 	"github.com/onosproject/helmit/pkg/test"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

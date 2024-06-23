@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/atomix/atomix/cli/internal/exec"
+	"github.com/micro-onos-revamped/atomix/cli/internal/exec"
 	"github.com/rogpeppe/go-internal/modfile"
 	"io"
 	"os"

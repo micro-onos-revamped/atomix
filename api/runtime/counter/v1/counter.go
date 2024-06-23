@@ -4,7 +4,7 @@
 
 package v1
 
-import runtimev1 "github.com/atomix/atomix/api/runtime/v1"
+import runtimev1 "github.com/micro-onos-revamped/atomix/api/runtime/v1"
 
 const (
 	Name       = "Counter"

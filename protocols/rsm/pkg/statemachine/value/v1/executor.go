@@ -5,10 +5,10 @@
 package v1
 
 import (
-	"github.com/atomix/atomix/api/errors"
-	valueprotocolv1 "github.com/atomix/atomix/protocols/rsm/api/value/v1"
-	"github.com/atomix/atomix/protocols/rsm/pkg/statemachine"
 	"github.com/gogo/protobuf/proto"
+	"github.com/micro-onos-revamped/atomix/api/errors"
+	valueprotocolv1 "github.com/micro-onos-revamped/atomix/protocols/rsm/api/value/v1"
+	"github.com/micro-onos-revamped/atomix/protocols/rsm/pkg/statemachine"
 )
 
 var valueCodec = statemachine.NewCodec[*valueprotocolv1.ValueInput, *valueprotocolv1.ValueOutput](

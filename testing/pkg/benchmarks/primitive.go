@@ -6,9 +6,9 @@ package benchmarks
 
 import (
 	"context"
-	runtimev1 "github.com/atomix/atomix/api/runtime/v1"
-	"github.com/atomix/atomix/runtime/pkg/utils/grpc/interceptors"
 	petname "github.com/dustinkirkland/golang-petname"
+	runtimev1 "github.com/micro-onos-revamped/atomix/api/runtime/v1"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/utils/grpc/interceptors"
 	"github.com/onosproject/helmit/pkg/benchmark"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

@@ -8,8 +8,8 @@ package v1beta2
 import (
 	"net/http"
 
-	v1beta2 "github.com/atomix/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta2"
-	"github.com/atomix/atomix/stores/shared-memory/pkg/client/clientset/versioned/scheme"
+	v1beta2 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta2"
+	"github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

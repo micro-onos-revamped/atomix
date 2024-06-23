@@ -6,7 +6,7 @@
 package scheme
 
 import (
-	podmemoryv1beta1 "github.com/atomix/atomix/stores/pod-memory/pkg/apis/podmemory/v1beta1"
+	podmemoryv1beta1 "github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/apis/podmemory/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

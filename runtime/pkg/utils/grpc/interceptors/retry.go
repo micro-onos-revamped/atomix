@@ -6,8 +6,8 @@ package interceptors
 
 import (
 	"context"
-	"github.com/atomix/atomix/runtime/pkg/logging"
 	"github.com/cenkalti/backoff"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

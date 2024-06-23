@@ -5,10 +5,10 @@
 package v1
 
 import (
-	"github.com/atomix/atomix/api/errors"
-	multimapprotocolv1 "github.com/atomix/atomix/protocols/rsm/api/multimap/v1"
-	protocol "github.com/atomix/atomix/protocols/rsm/api/v1"
-	"github.com/atomix/atomix/protocols/rsm/pkg/statemachine"
+	"github.com/micro-onos-revamped/atomix/api/errors"
+	multimapprotocolv1 "github.com/micro-onos-revamped/atomix/protocols/rsm/api/multimap/v1"
+	protocol "github.com/micro-onos-revamped/atomix/protocols/rsm/api/v1"
+	"github.com/micro-onos-revamped/atomix/protocols/rsm/pkg/statemachine"
 	"sync"
 )
 

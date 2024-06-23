@@ -28,7 +28,7 @@ func TestGetModFromMain(t *testing.T) {
 	assert.True(t, ok)
 	assert.NoError(t, err)
 
-	dir, file, ok, err = getDirModFromMain(root, "github.com/atomix/atomix/cli/cmd/atomix")
+	dir, file, ok, err = getDirModFromMain(root, "github.com/micro-onos-revamped/atomix/cli/cmd/atomix")
 	assert.Equal(t, root, dir)
 	assert.NotNil(t, file)
 	assert.True(t, ok)
@@ -38,11 +38,11 @@ func TestGetModFromMain(t *testing.T) {
 	assert.False(t, ok)
 	assert.NoError(t, err)
 
-	_, _, ok, err = getDirModFromMain(root, "github.com/atomix/atomix/cli/cmd/foo")
+	_, _, ok, err = getDirModFromMain(root, "github.com/micro-onos-revamped/atomix/cli/cmd/foo")
 	assert.False(t, ok)
 	assert.NoError(t, err)
 
-	_, _, ok, err = getDirModFromMain(root, "github.com/atomix/atomix/cli")
+	_, _, ok, err = getDirModFromMain(root, "github.com/micro-onos-revamped/atomix/cli")
 	assert.False(t, ok)
 	assert.NoError(t, err)
 }
@@ -60,7 +60,7 @@ func TestGetMod(t *testing.T) {
 	assert.True(t, ok)
 	assert.NoError(t, err)
 
-	dir, file, ok, err = getDirMod(cliRoot, "github.com/atomix/atomix/cli")
+	dir, file, ok, err = getDirMod(cliRoot, "github.com/micro-onos-revamped/atomix/cli")
 	assert.Equal(t, cliRoot, dir)
 	assert.NotNil(t, file)
 	assert.True(t, ok)
@@ -82,7 +82,7 @@ func TestGetMod(t *testing.T) {
 	assert.False(t, ok)
 	assert.NoError(t, err)
 
-	_, _, ok, err = getDirMod(cliRoot, "github.com/atomix/atomix/foo")
+	_, _, ok, err = getDirMod(cliRoot, "github.com/micro-onos-revamped/atomix/foo")
 	assert.False(t, ok)
 	assert.NoError(t, err)
 }

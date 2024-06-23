@@ -6,7 +6,7 @@ package v1beta3
 
 import (
 	"fmt"
-	raftv1beta3 "github.com/atomix/atomix/stores/raft/pkg/apis/raft/v1beta3"
+	raftv1beta3 "github.com/micro-onos-revamped/atomix/stores/raft/pkg/apis/raft/v1beta3"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"net"

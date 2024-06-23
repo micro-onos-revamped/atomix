@@ -6,7 +6,7 @@
 package fake
 
 import (
-	v1beta1 "github.com/atomix/atomix/stores/pod-memory/pkg/client/clientset/versioned/typed/podmemory/v1beta1"
+	v1beta1 "github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/client/clientset/versioned/typed/podmemory/v1beta1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

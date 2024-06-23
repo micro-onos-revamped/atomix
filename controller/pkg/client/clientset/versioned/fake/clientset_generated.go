@@ -6,11 +6,11 @@
 package fake
 
 import (
-	clientset "github.com/atomix/atomix/controller/pkg/client/clientset/versioned"
-	atomixv3beta3 "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta3"
-	fakeatomixv3beta3 "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta3/fake"
-	atomixv3beta4 "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
-	fakeatomixv3beta4 "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4/fake"
+	clientset "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned"
+	atomixv3beta3 "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta3"
+	fakeatomixv3beta3 "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta3/fake"
+	atomixv3beta4 "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
+	fakeatomixv3beta4 "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

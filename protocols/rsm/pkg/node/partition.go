@@ -6,9 +6,9 @@ package node
 
 import (
 	"context"
-	"github.com/atomix/atomix/api/errors"
-	protocol "github.com/atomix/atomix/protocols/rsm/api/v1"
-	streams "github.com/atomix/atomix/runtime/pkg/stream"
+	"github.com/micro-onos-revamped/atomix/api/errors"
+	protocol "github.com/micro-onos-revamped/atomix/protocols/rsm/api/v1"
+	streams "github.com/micro-onos-revamped/atomix/runtime/pkg/stream"
 )
 
 type Partition interface {

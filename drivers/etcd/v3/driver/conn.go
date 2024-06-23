@@ -6,12 +6,12 @@ package driver
 
 import (
 	"context"
-	runtimev1 "github.com/atomix/atomix/api/runtime/v1"
-	etcdlockv1 "github.com/atomix/atomix/drivers/etcd/v3/driver/lock/v1"
-	etcdmapv1 "github.com/atomix/atomix/drivers/etcd/v3/driver/map/v1"
-	"github.com/atomix/atomix/runtime/pkg/driver"
-	runtimelockv1 "github.com/atomix/atomix/runtime/pkg/runtime/lock/v1"
-	runtimemapv1 "github.com/atomix/atomix/runtime/pkg/runtime/map/v1"
+	runtimev1 "github.com/micro-onos-revamped/atomix/api/runtime/v1"
+	etcdlockv1 "github.com/micro-onos-revamped/atomix/drivers/etcd/v3/driver/lock/v1"
+	etcdmapv1 "github.com/micro-onos-revamped/atomix/drivers/etcd/v3/driver/map/v1"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/driver"
+	runtimelockv1 "github.com/micro-onos-revamped/atomix/runtime/pkg/runtime/lock/v1"
+	runtimemapv1 "github.com/micro-onos-revamped/atomix/runtime/pkg/runtime/map/v1"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/concurrency"
 )

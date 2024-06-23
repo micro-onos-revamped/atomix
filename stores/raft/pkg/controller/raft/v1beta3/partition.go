@@ -7,7 +7,7 @@ package v1beta3
 import (
 	"context"
 	"fmt"
-	"github.com/atomix/atomix/runtime/pkg/logging"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -22,7 +22,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/source"
 	"time"
 
-	raftv1beta3 "github.com/atomix/atomix/stores/raft/pkg/apis/raft/v1beta3"
+	raftv1beta3 "github.com/micro-onos-revamped/atomix/stores/raft/pkg/apis/raft/v1beta3"
 	"k8s.io/apimachinery/pkg/runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"

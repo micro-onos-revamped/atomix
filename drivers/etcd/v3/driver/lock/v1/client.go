@@ -7,9 +7,9 @@ package v1
 import (
 	"context"
 	"fmt"
-	lockv1 "github.com/atomix/atomix/api/runtime/lock/v1"
-	runtimev1 "github.com/atomix/atomix/api/runtime/v1"
-	runtimelockv1 "github.com/atomix/atomix/runtime/pkg/runtime/lock/v1"
+	lockv1 "github.com/micro-onos-revamped/atomix/api/runtime/lock/v1"
+	runtimev1 "github.com/micro-onos-revamped/atomix/api/runtime/v1"
+	runtimelockv1 "github.com/micro-onos-revamped/atomix/runtime/pkg/runtime/lock/v1"
 	"go.etcd.io/etcd/client/v3/concurrency"
 )
 

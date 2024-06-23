@@ -8,10 +8,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	runtimev1 "github.com/atomix/atomix/api/runtime/v1"
-	"github.com/atomix/atomix/runtime/pkg/driver"
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/gogo/protobuf/types"
+	runtimev1 "github.com/micro-onos-revamped/atomix/api/runtime/v1"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/driver"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

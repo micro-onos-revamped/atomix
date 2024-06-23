@@ -5,13 +5,13 @@
 package atomix
 
 import (
-	"github.com/atomix/atomix/cli/internal/atomix/build"
-	"github.com/atomix/atomix/runtime/pkg/logging"
+	"github.com/micro-onos-revamped/atomix/cli/internal/atomix/build"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
 	"github.com/spf13/cobra"
 	"strings"
 )
 
-var log = logging.GetLogger("github.com/atomix/atomix/cli")
+var log = logging.GetLogger("github.com/micro-onos-revamped/atomix/cli")
 
 func GetCommand() *cobra.Command {
 	cmd := &cobra.Command{

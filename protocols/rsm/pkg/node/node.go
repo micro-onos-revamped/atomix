@@ -6,10 +6,10 @@ package node
 
 import (
 	"fmt"
-	protocol "github.com/atomix/atomix/protocols/rsm/api/v1"
-	"github.com/atomix/atomix/runtime/pkg/logging"
-	"github.com/atomix/atomix/runtime/pkg/network"
-	"github.com/atomix/atomix/runtime/pkg/utils/grpc/interceptors"
+	protocol "github.com/micro-onos-revamped/atomix/protocols/rsm/api/v1"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/network"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/utils/grpc/interceptors"
 	"google.golang.org/grpc"
 	"os"
 )

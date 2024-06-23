@@ -5,8 +5,8 @@
 package apis
 
 import (
-	atomixv3beta3 "github.com/atomix/atomix/controller/pkg/apis/atomix/v3beta3"
-	atomixv3beta4 "github.com/atomix/atomix/controller/pkg/apis/atomix/v3beta4"
+	atomixv3beta3 "github.com/micro-onos-revamped/atomix/controller/pkg/apis/atomix/v3beta3"
+	atomixv3beta4 "github.com/micro-onos-revamped/atomix/controller/pkg/apis/atomix/v3beta4"
 	"k8s.io/apimachinery/pkg/conversion"
 	"k8s.io/apimachinery/pkg/runtime"
 )

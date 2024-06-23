@@ -6,9 +6,9 @@ package raft
 
 import (
 	"context"
-	"github.com/atomix/atomix/api/errors"
-	"github.com/atomix/atomix/runtime/pkg/logging"
-	raftv1 "github.com/atomix/atomix/stores/raft/api/v1"
+	"github.com/micro-onos-revamped/atomix/api/errors"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
+	raftv1 "github.com/micro-onos-revamped/atomix/stores/raft/api/v1"
 )
 
 func NewNodeServer(protocol *Protocol) raftv1.NodeServer {

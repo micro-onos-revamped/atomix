@@ -7,9 +7,9 @@ package client
 import (
 	"context"
 	"fmt"
-	"github.com/atomix/atomix/api/errors"
-	protocol "github.com/atomix/atomix/protocols/rsm/api/v1"
-	"github.com/atomix/atomix/runtime/pkg/utils/grpc/interceptors"
+	"github.com/micro-onos-revamped/atomix/api/errors"
+	protocol "github.com/micro-onos-revamped/atomix/protocols/rsm/api/v1"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/utils/grpc/interceptors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials/insecure"

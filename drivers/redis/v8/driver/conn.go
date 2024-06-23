@@ -6,11 +6,11 @@ package driver
 
 import (
 	"context"
-	runtimev1 "github.com/atomix/atomix/api/runtime/v1"
-	redissetv1 "github.com/atomix/atomix/drivers/redis/v8/driver/set/v1"
-	"github.com/atomix/atomix/runtime/pkg/driver"
-	runtimesetv1 "github.com/atomix/atomix/runtime/pkg/runtime/set/v1"
 	"github.com/go-redis/redis/v8"
+	runtimev1 "github.com/micro-onos-revamped/atomix/api/runtime/v1"
+	redissetv1 "github.com/micro-onos-revamped/atomix/drivers/redis/v8/driver/set/v1"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/driver"
+	runtimesetv1 "github.com/micro-onos-revamped/atomix/runtime/pkg/runtime/set/v1"
 )
 
 func newConn(client *redis.Client) driver.Conn {

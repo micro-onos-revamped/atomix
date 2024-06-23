@@ -6,9 +6,9 @@
 package fake
 
 import (
-	clientset "github.com/atomix/atomix/stores/pod-memory/pkg/client/clientset/versioned"
-	podmemoryv1beta1 "github.com/atomix/atomix/stores/pod-memory/pkg/client/clientset/versioned/typed/podmemory/v1beta1"
-	fakepodmemoryv1beta1 "github.com/atomix/atomix/stores/pod-memory/pkg/client/clientset/versioned/typed/podmemory/v1beta1/fake"
+	clientset "github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/client/clientset/versioned"
+	podmemoryv1beta1 "github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/client/clientset/versioned/typed/podmemory/v1beta1"
+	fakepodmemoryv1beta1 "github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/client/clientset/versioned/typed/podmemory/v1beta1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

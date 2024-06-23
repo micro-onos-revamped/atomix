@@ -6,8 +6,8 @@
 package fake
 
 import (
-	sharedmemoryv1beta1 "github.com/atomix/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta1"
-	sharedmemoryv1beta2 "github.com/atomix/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta2"
+	sharedmemoryv1beta1 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta1"
+	sharedmemoryv1beta2 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta2"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

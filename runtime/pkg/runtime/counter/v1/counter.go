@@ -6,9 +6,9 @@ package v1
 
 import (
 	"context"
-	counterv1 "github.com/atomix/atomix/api/runtime/counter/v1"
-	"github.com/atomix/atomix/runtime/pkg/logging"
-	runtime "github.com/atomix/atomix/runtime/pkg/runtime/v1"
+	counterv1 "github.com/micro-onos-revamped/atomix/api/runtime/counter/v1"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
+	runtime "github.com/micro-onos-revamped/atomix/runtime/pkg/runtime/v1"
 )
 
 var log = logging.GetLogger()

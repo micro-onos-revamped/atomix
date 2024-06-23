@@ -6,7 +6,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/atomix/atomix/cli/internal/atomix"
+	"github.com/micro-onos-revamped/atomix/cli/internal/atomix"
 	"os"
 )
 

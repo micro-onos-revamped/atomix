@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"net/http"
 
-	atomixv3beta3 "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta3"
-	atomixv3beta4 "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
+	atomixv3beta3 "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta3"
+	atomixv3beta4 "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
