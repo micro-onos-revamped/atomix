@@ -6,13 +6,13 @@ package v1
 
 import (
 	"context"
-	runtimev1 "github.com/atomix/atomix/api/runtime/v1"
-	valuev1 "github.com/atomix/atomix/api/runtime/value/v1"
-	protocol "github.com/atomix/atomix/protocols/rsm/api/v1"
-	valueprotocolv1 "github.com/atomix/atomix/protocols/rsm/api/value/v1"
-	"github.com/atomix/atomix/protocols/rsm/pkg/client"
-	"github.com/atomix/atomix/runtime/pkg/logging"
-	runtimevaluev1 "github.com/atomix/atomix/runtime/pkg/runtime/value/v1"
+	runtimev1 "github.com/micro-onos-revamped/atomix/api/runtime/v1"
+	valuev1 "github.com/micro-onos-revamped/atomix/api/runtime/value/v1"
+	protocol "github.com/micro-onos-revamped/atomix/protocols/rsm/api/v1"
+	valueprotocolv1 "github.com/micro-onos-revamped/atomix/protocols/rsm/api/value/v1"
+	"github.com/micro-onos-revamped/atomix/protocols/rsm/pkg/client"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
+	runtimevaluev1 "github.com/micro-onos-revamped/atomix/runtime/pkg/runtime/value/v1"
 	"google.golang.org/grpc"
 	"io"
 )

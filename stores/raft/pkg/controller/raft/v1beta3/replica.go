@@ -7,10 +7,10 @@ package v1beta3
 import (
 	"context"
 	"fmt"
-	"github.com/atomix/atomix/api/errors"
-	"github.com/atomix/atomix/runtime/pkg/logging"
-	"github.com/atomix/atomix/runtime/pkg/utils/grpc/interceptors"
-	raftv1 "github.com/atomix/atomix/stores/raft/api/v1"
+	"github.com/micro-onos-revamped/atomix/api/errors"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/utils/grpc/interceptors"
+	raftv1 "github.com/micro-onos-revamped/atomix/stores/raft/api/v1"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	corev1 "k8s.io/api/core/v1"
@@ -24,7 +24,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/source"
 	"time"
 
-	raftv1beta3 "github.com/atomix/atomix/stores/raft/pkg/apis/raft/v1beta3"
+	raftv1beta3 "github.com/micro-onos-revamped/atomix/stores/raft/pkg/apis/raft/v1beta3"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"

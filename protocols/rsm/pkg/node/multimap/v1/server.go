@@ -6,11 +6,11 @@ package v1
 
 import (
 	"context"
-	multimapprotocolv1 "github.com/atomix/atomix/protocols/rsm/api/multimap/v1"
-	"github.com/atomix/atomix/protocols/rsm/pkg/node"
-	"github.com/atomix/atomix/runtime/pkg/logging"
-	streams "github.com/atomix/atomix/runtime/pkg/stream"
 	"github.com/gogo/protobuf/proto"
+	multimapprotocolv1 "github.com/micro-onos-revamped/atomix/protocols/rsm/api/multimap/v1"
+	"github.com/micro-onos-revamped/atomix/protocols/rsm/pkg/node"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
+	streams "github.com/micro-onos-revamped/atomix/runtime/pkg/stream"
 	"google.golang.org/grpc"
 )
 

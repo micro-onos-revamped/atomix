@@ -6,7 +6,7 @@ package build
 
 import (
 	"fmt"
-	"github.com/atomix/atomix/cli/internal/exec"
+	"github.com/micro-onos-revamped/atomix/cli/internal/exec"
 	"github.com/spf13/cobra"
 	"os"
 	"path/filepath"

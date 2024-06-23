@@ -6,9 +6,9 @@ package tests
 
 import (
 	"context"
-	atomixv3beta4 "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
-	"github.com/atomix/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta2"
-	sharedmemoryv1beta2 "github.com/atomix/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta2"
+	atomixv3beta4 "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
+	"github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta2"
+	sharedmemoryv1beta2 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta2"
 	"github.com/onosproject/helmit/pkg/test"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"time"

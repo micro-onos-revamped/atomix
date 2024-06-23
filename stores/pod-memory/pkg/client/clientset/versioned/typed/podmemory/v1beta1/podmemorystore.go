@@ -9,8 +9,8 @@ import (
 	"context"
 	"time"
 
-	v1beta1 "github.com/atomix/atomix/stores/pod-memory/pkg/apis/podmemory/v1beta1"
-	scheme "github.com/atomix/atomix/stores/pod-memory/pkg/client/clientset/versioned/scheme"
+	v1beta1 "github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/apis/podmemory/v1beta1"
+	scheme "github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/client/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

@@ -6,15 +6,15 @@ package build
 
 import (
 	"fmt"
-	"github.com/atomix/atomix/cli/internal/exec"
-	"github.com/atomix/atomix/runtime/pkg/logging"
+	"github.com/micro-onos-revamped/atomix/cli/internal/exec"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
 	"github.com/spf13/cobra"
 	"os"
 	"path/filepath"
 	"runtime"
 )
 
-var log = logging.GetLogger("github.com/atomix/atomix/cli")
+var log = logging.GetLogger("github.com/micro-onos-revamped/atomix/cli")
 
 const atomixCCEnabledEnv = "ATOMIX_CC_ENABLED"
 

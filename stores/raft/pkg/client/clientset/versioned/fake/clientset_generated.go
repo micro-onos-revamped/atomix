@@ -6,11 +6,11 @@
 package fake
 
 import (
-	clientset "github.com/atomix/atomix/stores/raft/pkg/client/clientset/versioned"
-	raftv1beta2 "github.com/atomix/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta2"
-	fakeraftv1beta2 "github.com/atomix/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta2/fake"
-	raftv1beta3 "github.com/atomix/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta3"
-	fakeraftv1beta3 "github.com/atomix/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta3/fake"
+	clientset "github.com/micro-onos-revamped/atomix/stores/raft/pkg/client/clientset/versioned"
+	raftv1beta2 "github.com/micro-onos-revamped/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta2"
+	fakeraftv1beta2 "github.com/micro-onos-revamped/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta2/fake"
+	raftv1beta3 "github.com/micro-onos-revamped/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta3"
+	fakeraftv1beta3 "github.com/micro-onos-revamped/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta3/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

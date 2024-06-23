@@ -6,7 +6,7 @@ package interceptors
 
 import (
 	"context"
-	"github.com/atomix/atomix/api/errors"
+	"github.com/micro-onos-revamped/atomix/api/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

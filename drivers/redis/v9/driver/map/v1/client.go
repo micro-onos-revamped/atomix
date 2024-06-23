@@ -7,10 +7,10 @@ package v1
 import (
 	"context"
 	"fmt"
-	"github.com/atomix/atomix/api/errors"
-	mapv1 "github.com/atomix/atomix/api/runtime/map/v1"
-	runtimev1 "github.com/atomix/atomix/api/runtime/v1"
 	"github.com/go-redis/redis/v9"
+	"github.com/micro-onos-revamped/atomix/api/errors"
+	mapv1 "github.com/micro-onos-revamped/atomix/api/runtime/map/v1"
+	runtimev1 "github.com/micro-onos-revamped/atomix/api/runtime/v1"
 )
 
 func NewMap(client *redis.Client) mapv1.MapServer {

@@ -5,10 +5,10 @@
 package v1
 
 import (
-	"github.com/atomix/atomix/api/errors"
-	protocol "github.com/atomix/atomix/protocols/rsm/api/v1"
-	valueprotocolv1 "github.com/atomix/atomix/protocols/rsm/api/value/v1"
-	"github.com/atomix/atomix/protocols/rsm/pkg/statemachine"
+	"github.com/micro-onos-revamped/atomix/api/errors"
+	protocol "github.com/micro-onos-revamped/atomix/protocols/rsm/api/v1"
+	valueprotocolv1 "github.com/micro-onos-revamped/atomix/protocols/rsm/api/value/v1"
+	"github.com/micro-onos-revamped/atomix/protocols/rsm/pkg/statemachine"
 	"sync"
 )
 

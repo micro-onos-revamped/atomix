@@ -6,9 +6,9 @@ package v1beta2
 
 import (
 	"context"
-	"github.com/atomix/atomix/controller/pkg/controller/util/k8s/conversion"
-	sharedmemoryv1beta1 "github.com/atomix/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta1"
-	sharedmemoryv1beta2 "github.com/atomix/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta2"
+	"github.com/micro-onos-revamped/atomix/controller/pkg/controller/util/k8s/conversion"
+	sharedmemoryv1beta1 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta1"
+	sharedmemoryv1beta2 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/apis/sharedmemory/v1beta2"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"

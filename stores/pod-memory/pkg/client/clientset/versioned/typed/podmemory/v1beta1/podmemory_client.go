@@ -8,8 +8,8 @@ package v1beta1
 import (
 	"net/http"
 
-	v1beta1 "github.com/atomix/atomix/stores/pod-memory/pkg/apis/podmemory/v1beta1"
-	"github.com/atomix/atomix/stores/pod-memory/pkg/client/clientset/versioned/scheme"
+	v1beta1 "github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/apis/podmemory/v1beta1"
+	"github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

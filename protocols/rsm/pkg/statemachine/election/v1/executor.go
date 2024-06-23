@@ -5,10 +5,10 @@
 package v1
 
 import (
-	"github.com/atomix/atomix/api/errors"
-	electionprotocolv1 "github.com/atomix/atomix/protocols/rsm/api/election/v1"
-	"github.com/atomix/atomix/protocols/rsm/pkg/statemachine"
 	"github.com/gogo/protobuf/proto"
+	"github.com/micro-onos-revamped/atomix/api/errors"
+	electionprotocolv1 "github.com/micro-onos-revamped/atomix/protocols/rsm/api/election/v1"
+	"github.com/micro-onos-revamped/atomix/protocols/rsm/pkg/statemachine"
 )
 
 var lockCodec = statemachine.NewCodec[*electionprotocolv1.LeaderElectionInput, *electionprotocolv1.LeaderElectionOutput](

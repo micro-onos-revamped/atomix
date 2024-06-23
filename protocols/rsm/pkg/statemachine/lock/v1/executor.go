@@ -5,10 +5,10 @@
 package v1
 
 import (
-	"github.com/atomix/atomix/api/errors"
-	lockprotocolv1 "github.com/atomix/atomix/protocols/rsm/api/lock/v1"
-	"github.com/atomix/atomix/protocols/rsm/pkg/statemachine"
 	"github.com/gogo/protobuf/proto"
+	"github.com/micro-onos-revamped/atomix/api/errors"
+	lockprotocolv1 "github.com/micro-onos-revamped/atomix/protocols/rsm/api/lock/v1"
+	"github.com/micro-onos-revamped/atomix/protocols/rsm/pkg/statemachine"
 )
 
 var lockCodec = statemachine.NewCodec[*lockprotocolv1.LockInput, *lockprotocolv1.LockOutput](

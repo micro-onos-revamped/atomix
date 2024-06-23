@@ -6,9 +6,9 @@ package tests
 
 import (
 	"context"
-	atomixv3beta4 "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
-	"github.com/atomix/atomix/stores/pod-memory/pkg/apis/podmemory/v1beta1"
-	podmemoryv1beta1 "github.com/atomix/atomix/stores/pod-memory/pkg/client/clientset/versioned/typed/podmemory/v1beta1"
+	atomixv3beta4 "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
+	"github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/apis/podmemory/v1beta1"
+	podmemoryv1beta1 "github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/client/clientset/versioned/typed/podmemory/v1beta1"
 	"github.com/onosproject/helmit/pkg/test"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"time"

@@ -6,8 +6,8 @@ package node
 
 import (
 	"context"
-	protocol "github.com/atomix/atomix/protocols/rsm/api/v1"
-	"github.com/atomix/atomix/runtime/pkg/stream"
+	protocol "github.com/micro-onos-revamped/atomix/protocols/rsm/api/v1"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/stream"
 )
 
 // Executor is the interface for executing operations on the underlying protocol

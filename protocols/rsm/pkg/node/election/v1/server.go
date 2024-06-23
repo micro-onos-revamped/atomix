@@ -6,11 +6,11 @@ package v1
 
 import (
 	"context"
-	electionprotocolv1 "github.com/atomix/atomix/protocols/rsm/api/election/v1"
-	"github.com/atomix/atomix/protocols/rsm/pkg/node"
-	"github.com/atomix/atomix/runtime/pkg/logging"
-	streams "github.com/atomix/atomix/runtime/pkg/stream"
 	"github.com/gogo/protobuf/proto"
+	electionprotocolv1 "github.com/micro-onos-revamped/atomix/protocols/rsm/api/election/v1"
+	"github.com/micro-onos-revamped/atomix/protocols/rsm/pkg/node"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
+	streams "github.com/micro-onos-revamped/atomix/runtime/pkg/stream"
 	"google.golang.org/grpc"
 )
 

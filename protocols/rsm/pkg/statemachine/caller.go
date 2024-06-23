@@ -5,8 +5,8 @@
 package statemachine
 
 import (
-	"github.com/atomix/atomix/runtime/pkg/logging"
 	"github.com/gogo/protobuf/proto"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
 	"time"
 )
 

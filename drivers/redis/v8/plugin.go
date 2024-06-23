@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/atomix/atomix/drivers/redis/v8/driver"
+	"github.com/micro-onos-revamped/atomix/drivers/redis/v8/driver"
 )
 
 var Plugin = driver.New()

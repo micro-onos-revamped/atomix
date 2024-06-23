@@ -5,7 +5,7 @@
 package tests
 
 import (
-	counterv1 "github.com/atomix/atomix/api/runtime/counter/v1"
+	counterv1 "github.com/micro-onos-revamped/atomix/api/runtime/counter/v1"
 )
 
 type CounterTestSuite struct {

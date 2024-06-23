@@ -5,8 +5,8 @@
 package raft
 
 import (
-	raftv1 "github.com/atomix/atomix/stores/raft/api/v1"
 	"github.com/lni/dragonboat/v3/raftio"
+	raftv1 "github.com/micro-onos-revamped/atomix/stores/raft/api/v1"
 	"time"
 )
 

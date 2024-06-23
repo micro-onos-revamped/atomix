@@ -5,7 +5,7 @@
 package v1beta2
 
 import (
-	"github.com/atomix/atomix/runtime/pkg/logging"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 )
 

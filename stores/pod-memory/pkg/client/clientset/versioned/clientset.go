@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"net/http"
 
-	podmemoryv1beta1 "github.com/atomix/atomix/stores/pod-memory/pkg/client/clientset/versioned/typed/podmemory/v1beta1"
+	podmemoryv1beta1 "github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/client/clientset/versioned/typed/podmemory/v1beta1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

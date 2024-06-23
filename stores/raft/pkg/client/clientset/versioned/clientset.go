@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"net/http"
 
-	raftv1beta2 "github.com/atomix/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta2"
-	raftv1beta3 "github.com/atomix/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta3"
+	raftv1beta2 "github.com/micro-onos-revamped/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta2"
+	raftv1beta3 "github.com/micro-onos-revamped/atomix/stores/raft/pkg/client/clientset/versioned/typed/raft/v1beta3"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

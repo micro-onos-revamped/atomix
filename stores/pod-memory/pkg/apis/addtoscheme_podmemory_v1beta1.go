@@ -5,7 +5,7 @@
 package apis
 
 import (
-	podmemoryv1beta1 "github.com/atomix/atomix/stores/pod-memory/pkg/apis/podmemory/v1beta1"
+	podmemoryv1beta1 "github.com/micro-onos-revamped/atomix/stores/pod-memory/pkg/apis/podmemory/v1beta1"
 )
 
 func init() {

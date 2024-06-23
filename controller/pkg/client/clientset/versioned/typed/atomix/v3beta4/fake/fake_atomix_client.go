@@ -6,7 +6,7 @@
 package fake
 
 import (
-	v3beta4 "github.com/atomix/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
+	v3beta4 "github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/typed/atomix/v3beta4"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

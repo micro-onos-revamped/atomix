@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/atomix/atomix/drivers/etcd/v3/driver"
+	"github.com/micro-onos-revamped/atomix/drivers/etcd/v3/driver"
 )
 
 var Plugin = driver.New()

@@ -8,7 +8,7 @@ package fake
 import (
 	"context"
 
-	v3beta4 "github.com/atomix/atomix/controller/pkg/apis/atomix/v3beta4"
+	v3beta4 "github.com/micro-onos-revamped/atomix/controller/pkg/apis/atomix/v3beta4"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

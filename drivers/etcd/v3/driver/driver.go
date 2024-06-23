@@ -6,8 +6,8 @@ package driver
 
 import (
 	"context"
-	"github.com/atomix/atomix/runtime/pkg/driver"
-	"github.com/atomix/atomix/runtime/pkg/logging"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/driver"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

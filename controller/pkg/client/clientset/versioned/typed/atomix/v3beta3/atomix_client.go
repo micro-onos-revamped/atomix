@@ -8,8 +8,8 @@ package v3beta3
 import (
 	"net/http"
 
-	v3beta3 "github.com/atomix/atomix/controller/pkg/apis/atomix/v3beta3"
-	"github.com/atomix/atomix/controller/pkg/client/clientset/versioned/scheme"
+	v3beta3 "github.com/micro-onos-revamped/atomix/controller/pkg/apis/atomix/v3beta3"
+	"github.com/micro-onos-revamped/atomix/controller/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

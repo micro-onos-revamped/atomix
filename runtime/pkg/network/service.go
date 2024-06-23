@@ -6,7 +6,7 @@ package network
 
 import (
 	"fmt"
-	"github.com/atomix/atomix/runtime/pkg/logging"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
 	"google.golang.org/grpc"
 	"os"
 )

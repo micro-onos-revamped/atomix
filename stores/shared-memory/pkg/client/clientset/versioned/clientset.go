@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"net/http"
 
-	sharedmemoryv1beta1 "github.com/atomix/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta1"
-	sharedmemoryv1beta2 "github.com/atomix/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta2"
+	sharedmemoryv1beta1 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta1"
+	sharedmemoryv1beta2 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta2"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

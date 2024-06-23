@@ -6,14 +6,14 @@ package v1
 
 import (
 	"context"
-	indexedmapv1 "github.com/atomix/atomix/api/runtime/indexedmap/v1"
-	runtimev1 "github.com/atomix/atomix/api/runtime/v1"
-	indexedmapprotocolv1 "github.com/atomix/atomix/protocols/rsm/api/indexedmap/v1"
-	protocol "github.com/atomix/atomix/protocols/rsm/api/v1"
-	"github.com/atomix/atomix/protocols/rsm/pkg/client"
-	"github.com/atomix/atomix/runtime/pkg/logging"
-	runtimeindexedmapv1 "github.com/atomix/atomix/runtime/pkg/runtime/indexedmap/v1"
-	"github.com/atomix/atomix/runtime/pkg/utils/async"
+	indexedmapv1 "github.com/micro-onos-revamped/atomix/api/runtime/indexedmap/v1"
+	runtimev1 "github.com/micro-onos-revamped/atomix/api/runtime/v1"
+	indexedmapprotocolv1 "github.com/micro-onos-revamped/atomix/protocols/rsm/api/indexedmap/v1"
+	protocol "github.com/micro-onos-revamped/atomix/protocols/rsm/api/v1"
+	"github.com/micro-onos-revamped/atomix/protocols/rsm/pkg/client"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/logging"
+	runtimeindexedmapv1 "github.com/micro-onos-revamped/atomix/runtime/pkg/runtime/indexedmap/v1"
+	"github.com/micro-onos-revamped/atomix/runtime/pkg/utils/async"
 	"google.golang.org/grpc"
 	"io"
 )

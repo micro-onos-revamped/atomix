@@ -6,11 +6,11 @@
 package fake
 
 import (
-	clientset "github.com/atomix/atomix/stores/shared-memory/pkg/client/clientset/versioned"
-	sharedmemoryv1beta1 "github.com/atomix/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta1"
-	fakesharedmemoryv1beta1 "github.com/atomix/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta1/fake"
-	sharedmemoryv1beta2 "github.com/atomix/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta2"
-	fakesharedmemoryv1beta2 "github.com/atomix/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta2/fake"
+	clientset "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/client/clientset/versioned"
+	sharedmemoryv1beta1 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta1"
+	fakesharedmemoryv1beta1 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta1/fake"
+	sharedmemoryv1beta2 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta2"
+	fakesharedmemoryv1beta2 "github.com/micro-onos-revamped/atomix/stores/shared-memory/pkg/client/clientset/versioned/typed/sharedmemory/v1beta2/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"
